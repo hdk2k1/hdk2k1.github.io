@@ -20,7 +20,7 @@ div .card-title{
 	font-size: 50px;
 	 font-family: 'Tangerine', cursive;
 	position: relative;
-	left: 16px;
+	left: 19px;
 	color: #FFC300;
 letter-spacing: 5px;
 box-shadow: 5px 3px 8px #FFFA00 ;
@@ -45,7 +45,7 @@ div .card-link{
 
 	text-decoration: none;
 	position: relative;
-	bottom: 20px;
+	bottom: 40px;
 	left: 30px;
 	
 font-family: 'Marck Script', cursive;
@@ -62,7 +62,13 @@ cursor: progress;
 	align-items: center;
 	flex-wrap: wrap;
 }
-img{
+.card > img{
+	width: 600px;
+	height: 600px;
+	position: relative;
+	right: 110px;
+}
+.pics > img{
 	width:240px;
 	height: 360px;
 	margin-left: auto;
