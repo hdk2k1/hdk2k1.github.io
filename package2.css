@@ -1,5 +1,5 @@
 body{
-	background-image: url(Rome.jpg); 
+	background-image: url(hk.png); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -12,7 +12,7 @@ img{
 	bottom :00%;
 	top: 0%;
 	transition: all 1s; 
-	box-shadow: 8px -8px 80px orange;
+	/*box-shadow: 8px -8px 80px orange;*/
 }
 img:hover{
 	transform: scale(1.3);
