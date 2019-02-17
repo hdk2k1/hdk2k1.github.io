@@ -5,24 +5,21 @@ body{
 	background-position: center center;
 	background-attachment: fixed;
 } 
-@media (max-height: 600px) {
-	body{
-		background-color: blue;
-	}}
 img{
 	width: 400px;
 	height: 400px;
 	position: absolute;
 	bottom :00%;
 	top: 0%;
-	transition: all 1s;
+	transition: all 1s; 
+	box-shadow: 8px -8px 80px orange;
 }
 img:hover{
 	transform: scale(1.3);
 	
 }
 a{
-	color: white;
+	color: black;
 	font-size: 70px;
 	text-decoration: none;
 	position: relative;
@@ -32,8 +29,8 @@ a{
 
 
 font-family: 'Righteous', cursive;
-box-shadow: -1px -1px 10px #00C5FF;
-	
+box-shadow: 8px 8px 20px orange;
+	/*#00C5FF*/
 
 	}
 .parent{
